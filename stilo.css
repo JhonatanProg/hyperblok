@@ -23,7 +23,7 @@ body {
 }
 
 #container {
-    width: 70%; /* Cambiado de "ancho" a "width" */
+    width: 70%;
     padding: 0;
     text-align: left;
     border: 1px solid #ddd;
