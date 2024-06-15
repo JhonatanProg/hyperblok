@@ -1,46 +1,60 @@
 body {
-    background: #1e1f24;
+    background: #f4f4f9;
     color: #333;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+}
+
+#container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #cabecera {
     background: #37488b;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
     color: white;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+#titulo {
+    font-size: 1.5rem;
     font-weight: bold;
-    margin: 0;
-    padding: 0.5em;
 }
 
-#cabecera #logo {
-    width: 20px;
-    vertical-align: middle;
-}
-
-#cabecera #tagline {
-    padding: 0 0 0 1em;
+#tagline {
+    margin-left: auto;
+    font-size: 1rem;
     font-weight: normal;
-    font-size: 0.8em;
 }
 
-#container {
-    width: 70%;
-    padding: 0;
-    text-align: left;
-    border: 1px solid #DDD;
-    margin: 0 auto;
+#contenido {
+    padding: 1rem;
 }
 
-#container h1 {
-    font-size: 20px;
+#contenido h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #37488b;
 }
 
-#post {
-    background: white;
-    padding: 1em;
+#contenido p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
