@@ -1,9 +1,5 @@
 body {
     color: red;
-<<<<<<< HEAD
->>>>>>> b11ea2c (cambie de color a rojo)
-=======
->>>>>>> 1a0e199 (solucione los conflictos en css)
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -13,10 +9,6 @@ body {
 
 #cabecera {
     background: rgb(170, 51, 51);
-<<<<<<< HEAD
->>>>>>> b11ea2c (cambie de color a rojo)
-=======
->>>>>>> 1a0e199 (solucione los conflictos en css)
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
     color: #fff;
     font-weight: 700;
@@ -45,3 +37,4 @@ body {
 #post {
     padding: 1em;
 }
+
