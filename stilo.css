@@ -1,60 +1,65 @@
+/* stilo.css */
+
 body {
-    background: #f4f4f9;
-    color: #333;
     font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
 #container {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 #cabecera {
-    background: #37488b;
-    padding: 1rem;
     display: flex;
     align-items: center;
-    border-radius: 10px 10px 0 0;
-    color: white;
+    padding: 10px 0;
 }
 
 #logo {
     width: 50px;
     height: 50px;
-    margin-right: 1rem;
-    border-radius: 50%;
+    margin-right: 10px;
 }
 
 #titulo {
-    font-size: 1.5rem;
+    font-size: 24px;
+    color: #37488b;
     font-weight: bold;
 }
 
 #tagline {
-    margin-left: auto;
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
 }
 
 #contenido {
-    padding: 1rem;
+    margin-top: 20px;
 }
 
 #contenido h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 28px;
     color: #37488b;
 }
 
 #contenido p {
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
